@@ -1,6 +1,44 @@
-if _G.Key = "OhAmi2191mg61ja59k271tuh" then
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Cold-Script/PremiumT/Main/main/You.loaded"))()
-end
-elseif not _G.Key = "OhAmi2191mg61ja59k271tuh" then
-game.Players:Kick("Bạn không có Key (You NOT HAVE KEY)")
-end
+local repo = 'https://raw.githubusercontent.com/mstudio45/LinoriaLib/main/'
+
+local Library = loadstring(game:HttpGet(repo .. 'Library.lua'))()
+local ThemeManager = loadstring(game:HttpGet(repo .. 'addons/ThemeManager.lua'))()
+local SaveManager = loadstring(game:HttpGet(repo .. 'addons/SaveManager.lua'))()
+local Window = Library:CreateWindow({
+  Title = 'Y∅U HUB | √5.Ω',
+	Center = true,
+	AutoShow = true,
+	Resizable = true,
+	ShowCustomCursor = true,
+	TabPadding = 8,
+	MenuFadeTime = 0.2
+})
+AddTab = Window:AddTab("Main")
+AddGroupbox = AddTab:AddLeftGroupbox("Player")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
