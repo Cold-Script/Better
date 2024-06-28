@@ -1,0 +1,6 @@
+if _G.Key = "OhAmi2191mg61ja59k271tuh" then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Cold-Script/PremiumT/Main/main/You.loaded"))()
+end
+elseif not _G.Key = "OhAmi2191mg61ja59k271tuh" then
+game.Players:Kick("Bạn không có Key (You NOT HAVE KEY)")
+end
